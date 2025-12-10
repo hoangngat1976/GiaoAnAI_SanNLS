@@ -147,7 +147,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY", type="primary", use_container_width=T
     else:
         try:
             with st.spinner('AI đang soạn giáo án (Model Gemini 1.5 Flash)...'):
-                model = genai.GenerativeModel('gemini-1.5-flash')
+                model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-09-2025')
                 
                 # PROMPT GIỮ NGUYÊN THEO YÊU CẦU CỦA THẦY
                 prompt_instruction = f"""
