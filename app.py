@@ -79,7 +79,7 @@ def create_doc_stable(content, ten_bai, lop):
 st.markdown("""
 <div style='text-align: center; background: linear-gradient(135deg, #004e92 0%, #000428 100%); padding: 20px; border-radius: 10px; color: white; margin-bottom: 20px;'>
     <h1 style='color: white; margin:0;'>📘 TRỢ LÝ SOẠN GIÁO ÁN NLS</h1>
-    <p style='margin-top:10px;'>Tác giả: Thầy Lù Seo Sần - PTDTBT TH Bản Ngò</p>
+    <p style='margin-top:10px;'>Tác giả: Cô Hoàng Thị Ngát - PTDTBT TH Tân Lập</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -245,4 +245,4 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY", type="primary", use_container_width=T
 
 # --- CHÂN TRANG ---
 st.markdown("---")
-st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Lù Seo Sần - Trường PTDTBT Tiểu học Bản Ngò - ĐT: 097 1986 343</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Hoàng Thị Ngát - Trường PTDTBT Tiểu học Tân Lập - ĐT: 0948195130</div>", unsafe_allow_html=True)
